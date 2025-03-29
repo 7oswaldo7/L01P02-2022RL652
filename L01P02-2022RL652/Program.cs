@@ -10,7 +10,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<blogdbContext>(options =>
     options.UseSqlServer(
-            builder.Configuration.GetConnectionString("blogdbConnection")
+            builder.Configuration.GetConnectionString("blog_dbConnection")
         )
 );
 
