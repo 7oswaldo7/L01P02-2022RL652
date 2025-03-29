@@ -8,15 +8,15 @@ namespace L01P02_2022RL652.Models
         {
         }
 
-        public DbSet<roles> roles { get; set; }
+        public DbSet<Roles> roles { get; set; }
 
-        public DbSet<usuarios> usuarios { get; set; }
+        public DbSet<Usuarios> usuarios { get; set; }
 
-        public DbSet<calificaciones> calificaciones { get; set; }
+        public DbSet<Calificaciones> calificaciones { get; set; }
 
-        public DbSet<comentarios> comentarios { get; set; }
+        public DbSet<Comentarios> comentarios { get; set; }
 
-        public DbSet<publicaciones> publicaciones { get; set; } 
+        public DbSet<Publicaciones> publicaciones { get; set; } 
 
     }
 }

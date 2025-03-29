@@ -2,7 +2,7 @@
 
 namespace L01P02_2022RL652.Models
 {
-    public class comentarios
+    public class Comentarios
     {
         [Key]
 
@@ -12,6 +12,6 @@ namespace L01P02_2022RL652.Models
 
         public string? comentario { get; set; }
 
-        public int 
+        public int usuarioId { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace L01P02_2022RL652.Models
 {
-    public class roles
+    public class Roles
 
     {
         [Key]
